@@ -1,0 +1,89 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* var */
+.dflex{
+    display: flex;
+}
+/* Common style */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+.btn-style{
+    color: white;
+    width: 123px;
+    height: 44px;
+    background-color: #E02C6D;
+    padding: 10px 24px 10px 24px;
+    border: 0px;
+    border-radius: 5px;
+}
+.btn-style:hover{
+    cursor: pointer;
+}
+/* Header Style */
+header{
+    background-color: #2D25A0;
+}
+.header-container{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.menu-item ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px ;
+}
+nav ul li{
+    text-decoration: none;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.btn-style a{
+    text-decoration: none;
+    color: white;
+    margin-left: 8px;
+}
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+.descrip h2{
+    font-weight: 700;
+    font-size: 54px;
+    color: white;
+    font-family: Poppins;
+    margin-bottom: 30px;
+}
+.banner-btn-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.banner-btn-type a{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.banner-btn-type i{
+    font-size: 12px;
+}
+.banner-image img{
+    height: 438px;
+    width: 556px;
+}
