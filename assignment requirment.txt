@@ -1,0 +1,13 @@
+#Comment code
+#Font Size exact
+#Menu Optional
+#Hero button add icon must
+#Hero Section Hover effect must
+#Margin padding 90 to 100%
+#Body section 3 grid
+#3rd section optional
+#footer social icon mustmin 4
+#Mobile device responsive
+#Tablet responsive
+
+ 
