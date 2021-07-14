@@ -26,7 +26,7 @@ body{
 header{
     background-color: #2D25A0;
 }
-.header-container{
+.container{
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -86,4 +86,85 @@ nav ul li a{
 .banner-image img{
     height: 438px;
     width: 556px;
+}
+/* Players List */
+.players-list{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 27px;
+}
+.player{
+    background-color: white;
+    width: 300px;
+    height: 420px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-photo img{
+    width: 300px;
+    height: 256px;
+}
+.player-info{
+    margin-top: 10px;
+}
+.player-info h3{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0px;
+}
+.player-info p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+/* HightLight */
+.highlight{
+    margin-top: 100px;
+}
+.highlight-banner{
+    display: flex;
+}
+.text-area{
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.text-area h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 10px;
+}
+.text-area p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+.image-area img{
+    height: 427px;
+    width: 500px;
+}
+/* Footer style */
+footer {
+    text-align: center;
+    width: 483.87px;
+    height: 213px;
+    margin: 110px 480px 0px 475px;
+  }
+#logo {
+    width: 470px;
+    height: 100px;
+  }
+  .social i{
+      color: rgb(133, 131, 131);
+      margin-right: 10px;
+  }
+footer p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: black;
 }
